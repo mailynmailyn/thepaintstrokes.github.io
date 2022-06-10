@@ -19,14 +19,14 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path= '/thepaintstrokes.github.io' element={<HomePage />} /> 
-        <Route path='/thepaintstrokes.github.io/homepage' element={<HomePage />} /> 
-        <Route path='/thepaintstrokes.github.io/aboutus' element={<AboutUs />} />
-        <Route path='/thepaintstrokes.github.io/workshopselect' element={<WorkshopSelection />} />
-        <Route path= '/thepaintstrokes.github.io/artists' element={<Artists />} />
-        <Route path= '/thepaintstrokes.github.io/date' element={<RegistrationDate />} />
-        <Route path= '/thepaintstrokes.github.io/userinfo' element={<UserInfo />} />
-        <Route path= '/thepaintstrokes.github.io/confirmation' element={<Confirmation />} />
+        <Route path= '/' element={<HomePage />} /> 
+        <Route path='/homepage' element={<HomePage />} /> 
+        <Route path='/aboutus' element={<AboutUs />} />
+        <Route path='/workshopselect' element={<WorkshopSelection />} />
+        <Route path= '/artists' element={<Artists />} />
+        <Route path= '/date' element={<RegistrationDate />} />
+        <Route path= '/userinfo' element={<UserInfo />} />
+        <Route path= '/confirmation' element={<Confirmation />} />
       </Routes>
     </Router>
   );
