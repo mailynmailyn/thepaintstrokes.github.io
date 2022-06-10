@@ -1,8 +1,8 @@
 // import './App.css';
 // import NavbarM from './assets/NavbarM.js';
-// import HomePage from './HomePage.js';
-// import AboutUs from './AboutUs.js';
-// import WorkshopSelection from './WorkshopSelection.js';
+import HomePage from './HomePage.js';
+import AboutUs from './AboutUs.js';
+import WorkshopSelection from './WorkshopSelection.js';
 // import Artists from './Artists.js';
 // import RegistrationDate from './RegistrationDate';
 // import UserInfo from './UserInfo';
@@ -55,9 +55,9 @@ class App extends Component {
           </nav>
           <hr />
           <Switch>
-              <Route exact path='/' component={Home} />
-              <Route path='/contact' component={Contact} />
-              <Route path='/about' component={About} />
+              <Route exact path='/' component={HomePage} />
+              <Route path='/contact' component={AboutUs} />
+              <Route path='/about' component={WorkshopSelection} />
           </Switch>
         </div>
       </Router>
