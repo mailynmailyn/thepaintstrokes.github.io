@@ -7,6 +7,7 @@ import vincent from "./portrait.jpg";
 import sun from "./sunflower.webp";
 import pot from "./pottery.jpg";
 import ottawa from "./ottawa.webp";
+import {Link} from 'react-router-dom';
 
 
 const WorkshopCards = () => {
