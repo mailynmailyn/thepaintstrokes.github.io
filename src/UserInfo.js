@@ -43,7 +43,7 @@ function UserInfo() {
                 </div>
 
                 <br></br>
-                <input type="submit" value="Submit"></input>
+                <Button as= {Link} to = "/confirmation"> Submit </Button>
             </form>
         </body>
       </Container>

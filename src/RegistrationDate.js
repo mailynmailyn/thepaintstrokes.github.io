@@ -15,7 +15,7 @@ function RegistrationDate() {
             <h5> Select an available date, timeslot and instructor. </h5>
         </header>
         <body className = {classes.body}>
-                <form className = {classes.body__form} action="/#/userinfo">
+                <form className = {classes.body__form}>
                     <Row>
                     <label for="date">Choose available date:</label>
                     <input type="date" id="date" name="date"></input>
@@ -47,7 +47,7 @@ function RegistrationDate() {
                     </Row>
                     <br></br>
                     <Row>
-                        <input type="submit" value="Submit"></input>
+                        <Button as= {Link} to = "/userinfo"> Submit </Button>
                     </Row>
                     </form>
 
