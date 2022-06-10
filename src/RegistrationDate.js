@@ -4,6 +4,7 @@ import WorkshopCards from './assets/WorkshopCards';
 import studioImage from './assets/studioimage.jpg';
 import {Container, Row, Col, Button} from 'react-bootstrap';
 import classes from './styles/RegistrationDate.module.scss';
+import {Link} from 'react-router-dom';
 
 function RegistrationDate() {
   return (

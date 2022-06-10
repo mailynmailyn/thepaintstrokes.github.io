@@ -4,6 +4,7 @@ import WorkshopCards from './assets/WorkshopCards';
 import studioImage from './assets/studioimage.jpg';
 import {Container, Button} from 'react-bootstrap';
 import classes from './styles/UserInfo.module.scss';
+import {Link} from 'react-router-dom';
 
 
 
