@@ -9,7 +9,7 @@ import UserInfo from './UserInfo';
 import Confirmation from './Confirmation';
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
@@ -20,7 +20,7 @@ function App() {
     <Router>
       <Routes>
         <Route path= '/thepaintstrokes.github.io' element={<HomePage />} /> 
-        <Route path='/homepage' element={<HomePage />} /> 
+        <Route path='/thepaintstrokes.github.io/homepage' element={<HomePage />} /> 
         <Route path='/thepaintstrokes.github.io/aboutus' element={<AboutUs />} />
         <Route path='/thepaintstrokes.github.io/workshopselect' element={<WorkshopSelection />} />
         <Route path= '/thepaintstrokes.github.io/artists' element={<Artists />} />
