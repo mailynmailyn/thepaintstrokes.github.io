@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path= '/thepaintstrokes.github.io' element={<HomePage />} /> 
+        {/* <Route path= '/thepaintstrokes.github.io' element={<HomePage />} />  */}
         <Route path='/thepaintstrokes.github.io/homepage' element={<HomePage />} /> 
         <Route path='/thepaintstrokes.github.io/aboutus' element={<AboutUs />} />
         <Route path='/thepaintstrokes.github.io/workshopselect' element={<WorkshopSelection />} />
