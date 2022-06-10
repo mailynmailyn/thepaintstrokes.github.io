@@ -1,0 +1,27 @@
+@import "../styles/stylesheet.scss";
+
+.header{
+    font-family: $header;
+    color: $dark-red;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.body{
+    background: $bg;
+    height: 200vh;
+    text-align:center;
+    font-size: 1rem;
+    padding: 10px;
+
+}
+
+.grid{
+    padding: 50px;
+    height:500px;
+    border: 0.25vmin solid $dark-red;
+    overflow:scroll;
+    overflow-x:hidden;
+
+}

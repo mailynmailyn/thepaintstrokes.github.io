@@ -1,0 +1,19 @@
+@import "../styles/stylesheet.scss";
+
+.header{
+    font-family: $header;
+    color: $light-red;
+    text-align: center;
+    padding: 40px;
+}
+
+.body{
+    font-family: $header;
+    font-size: 20px;
+    padding: 30px;
+    &__form{
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+}
+    

@@ -1,0 +1,17 @@
+@import "../styles/stylesheet.scss";
+
+.header{
+    font-family: $header;
+    color: $light-red;
+    text-align: center;
+    padding: 40px;
+}
+
+.body{
+    padding: 30px;
+    font-family: $header;
+    &__title{
+        font-size: 40px;
+        color: $dark-red;
+    }
+}

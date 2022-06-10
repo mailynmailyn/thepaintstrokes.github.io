@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&family=Joan&display=swap');
+
+//fonts
+$logo: 'Inconsolata';
+$header: 'Inconsolata';
+$text: 'Joan';
+
+
+//colours
+$dark-red: #9a092bff;
+$light-red: #c10b35ff;
+$black: #000000ff;
+$light-grey: #adadadff;
+$bg: #ffffffff;
+
+//spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+//border radius
+$borderRadius: 12px;
+
+//button radius
+$buttonRadius: 10px;
+
+//header height
+$headerHeight: 95px;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}

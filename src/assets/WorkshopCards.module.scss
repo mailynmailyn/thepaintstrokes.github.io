@@ -1,0 +1,23 @@
+@import "../styles/stylesheet.scss";
+
+.card_img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.button{
+    font-family: $header;
+    background-color: $dark-red;
+    color: white;
+    border-color: $dark-red;
+    &:hover{
+        border-color: $dark-red;
+        background-color: $light-red;
+    }
+}
+
+.price{
+    color: $dark-red;
+    font-weight: bold;
+}
