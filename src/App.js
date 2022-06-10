@@ -9,7 +9,7 @@ import UserInfo from './UserInfo';
 import Confirmation from './Confirmation';
 
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
