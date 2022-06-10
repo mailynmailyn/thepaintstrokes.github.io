@@ -11,14 +11,16 @@ import Confirmation from './Confirmation';
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
+  Switch
 } from "react-router-dom";
 
 
 function App() {
   return (
-    <Router>
-      <Routes>
+    <Switch>
+    {/* <Router>
+      <Routes> */}
         <Route path= '/thepaintstrokes.github.io' element={<HomePage />} /> 
         <Route path='/thepaintstrokes.github.io/homepage' element={<HomePage />} /> 
         <Route path='/thepaintstrokes.github.io/aboutus' element={<AboutUs />} />
@@ -27,8 +29,9 @@ function App() {
         <Route path= '/thepaintstrokes.github.io/date' element={<RegistrationDate />} />
         <Route path= '/thepaintstrokes.github.io/userinfo' element={<UserInfo />} />
         <Route path= '/thepaintstrokes.github.io/confirmation' element={<Confirmation />} />
-      </Routes>
-    </Router>
+      {/* </Routes>
+    </Router> */}
+    </Switch>
   );
 }
 
