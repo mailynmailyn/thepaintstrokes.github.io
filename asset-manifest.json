@@ -1,30 +1,21 @@
 {
   "files": {
-    "main.css": "/thepaintstrokes.github.io/static/css/main.5c6a78c8.css",
-    "main.js": "/thepaintstrokes.github.io/static/js/main.fe0a866f.js",
-    "static/js/787.43a224c4.chunk.js": "/thepaintstrokes.github.io/static/js/787.43a224c4.chunk.js",
+    "main.css": "/thepaintstrokes.github.io/static/css/main.e9bcfe66.css",
+    "main.js": "/thepaintstrokes.github.io/static/js/main.5f448fde.js",
     "static/media/oil.jpeg": "/thepaintstrokes.github.io/static/media/oil.9f0f2cfcb55c2c2fa32b.jpeg",
     "static/media/portrait.jpg": "/thepaintstrokes.github.io/static/media/portrait.09e79a19cfbae71cc62e.jpg",
-    "static/media/fab.jpg": "/thepaintstrokes.github.io/static/media/fab.fb630840f2b6952dd040.jpg",
-    "static/media/nikolai.jpg": "/thepaintstrokes.github.io/static/media/nikolai.503d96b44e69f8a12cf6.jpg",
     "static/media/sunflower.webp": "/thepaintstrokes.github.io/static/media/sunflower.c3c92c4931019805477f.webp",
     "static/media/studioimage.jpg": "/thepaintstrokes.github.io/static/media/studioimage.15c27a75543a67c25a55.jpg",
-    "static/media/julian.jpg": "/thepaintstrokes.github.io/static/media/julian.f6dc7156005616efb18d.jpg",
     "static/media/ottawa.webp": "/thepaintstrokes.github.io/static/media/ottawa.60c1cdbaf5d445cee703.webp",
     "static/media/watercolor.jpg": "/thepaintstrokes.github.io/static/media/watercolor.bce43fb06756ee3905b5.jpg",
-    "static/media/albert.webp": "/thepaintstrokes.github.io/static/media/albert.dd1e8457c22a9291d296.webp",
     "static/media/thestrokes.jpg": "/thepaintstrokes.github.io/static/media/thestrokes.d2cf60efc45d3e389906.jpg",
     "static/media/pottery.jpg": "/thepaintstrokes.github.io/static/media/pottery.2f2a766988940a900a9f.jpg",
-    "static/media/nickvalensi.jpg": "/thepaintstrokes.github.io/static/media/nickvalensi.c98eaa3cf9d6f0721171.jpg",
-    "static/media/thenewabnormal.jpg": "/thepaintstrokes.github.io/static/media/thenewabnormal.eff03b7dd075b2ef8fef.jpg",
-    "static/media/alex.jpg": "/thepaintstrokes.github.io/static/media/alex.97cb9801622eab4b77d7.jpg",
     "index.html": "/thepaintstrokes.github.io/index.html",
-    "main.5c6a78c8.css.map": "/thepaintstrokes.github.io/static/css/main.5c6a78c8.css.map",
-    "main.fe0a866f.js.map": "/thepaintstrokes.github.io/static/js/main.fe0a866f.js.map",
-    "787.43a224c4.chunk.js.map": "/thepaintstrokes.github.io/static/js/787.43a224c4.chunk.js.map"
+    "main.e9bcfe66.css.map": "/thepaintstrokes.github.io/static/css/main.e9bcfe66.css.map",
+    "main.5f448fde.js.map": "/thepaintstrokes.github.io/static/js/main.5f448fde.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c6a78c8.css",
-    "static/js/main.fe0a866f.js"
+    "static/css/main.e9bcfe66.css",
+    "static/js/main.5f448fde.js"
   ]
 }
