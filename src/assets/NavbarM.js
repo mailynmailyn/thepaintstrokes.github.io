@@ -12,7 +12,7 @@ const NavbarM = () => {
         <Nav className="me-auto">
           <Nav.Link as= {Link} to = "/aboutus">About Us</Nav.Link>
           <NavDropdown title="Workshops" id="basic-nav-dropdown">
-            <NavDropdown.Item href="http://localhost:3000/workshopselect">Pottery</NavDropdown.Item>
+            <NavDropdown.Item as= {Link} to = "/workshopselect">Pottery</NavDropdown.Item>
             <NavDropdown.Item href="http://localhost:3000/workshopselect">Painting</NavDropdown.Item>
             <NavDropdown.Item href="http://localhost:3000/workshopselect">Photography</NavDropdown.Item>
             <NavDropdown.Divider />
