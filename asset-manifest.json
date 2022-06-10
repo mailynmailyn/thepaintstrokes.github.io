@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thepaintstrokes.github.io/static/css/main.5c6a78c8.css",
-    "main.js": "/thepaintstrokes.github.io/static/js/main.3009900c.js",
+    "main.js": "/thepaintstrokes.github.io/static/js/main.6fcd27f5.js",
     "static/js/787.43a224c4.chunk.js": "/thepaintstrokes.github.io/static/js/787.43a224c4.chunk.js",
     "static/media/oil.jpeg": "/thepaintstrokes.github.io/static/media/oil.9f0f2cfcb55c2c2fa32b.jpeg",
     "static/media/portrait.jpg": "/thepaintstrokes.github.io/static/media/portrait.09e79a19cfbae71cc62e.jpg",
@@ -20,11 +20,11 @@
     "static/media/alex.jpg": "/thepaintstrokes.github.io/static/media/alex.97cb9801622eab4b77d7.jpg",
     "index.html": "/thepaintstrokes.github.io/index.html",
     "main.5c6a78c8.css.map": "/thepaintstrokes.github.io/static/css/main.5c6a78c8.css.map",
-    "main.3009900c.js.map": "/thepaintstrokes.github.io/static/js/main.3009900c.js.map",
+    "main.6fcd27f5.js.map": "/thepaintstrokes.github.io/static/js/main.6fcd27f5.js.map",
     "787.43a224c4.chunk.js.map": "/thepaintstrokes.github.io/static/js/787.43a224c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5c6a78c8.css",
-    "static/js/main.3009900c.js"
+    "static/js/main.6fcd27f5.js"
   ]
 }
