@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thepaintstrokes.github.io/static/css/main.e9bcfe66.css",
-    "main.js": "/thepaintstrokes.github.io/static/js/main.5f448fde.js",
+    "main.js": "/thepaintstrokes.github.io/static/js/main.638eb448.js",
     "static/media/oil.jpeg": "/thepaintstrokes.github.io/static/media/oil.9f0f2cfcb55c2c2fa32b.jpeg",
     "static/media/portrait.jpg": "/thepaintstrokes.github.io/static/media/portrait.09e79a19cfbae71cc62e.jpg",
     "static/media/sunflower.webp": "/thepaintstrokes.github.io/static/media/sunflower.c3c92c4931019805477f.webp",
@@ -12,10 +12,10 @@
     "static/media/pottery.jpg": "/thepaintstrokes.github.io/static/media/pottery.2f2a766988940a900a9f.jpg",
     "index.html": "/thepaintstrokes.github.io/index.html",
     "main.e9bcfe66.css.map": "/thepaintstrokes.github.io/static/css/main.e9bcfe66.css.map",
-    "main.5f448fde.js.map": "/thepaintstrokes.github.io/static/js/main.5f448fde.js.map"
+    "main.638eb448.js.map": "/thepaintstrokes.github.io/static/js/main.638eb448.js.map"
   },
   "entrypoints": [
     "static/css/main.e9bcfe66.css",
-    "static/js/main.5f448fde.js"
+    "static/js/main.638eb448.js"
   ]
 }
