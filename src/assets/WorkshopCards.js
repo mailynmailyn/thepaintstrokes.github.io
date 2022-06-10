@@ -19,7 +19,7 @@ const WorkshopCards = () => {
                 <Card.Text>
                 Start learning one of the more challenging painting dominions with still lifes.
                 </Card.Text>
-                <Button href = "http://localhost:3000/date" className= {classes.button}> Register </Button>
+                <Button as= {Link} to = "/date" className= {classes.button}> Register </Button>
             </Card.Body>
             </Card>
             <Card>
@@ -29,7 +29,7 @@ const WorkshopCards = () => {
                 <Card.Text>
                 Create a watercolor scene based on classic Canadian landscape.
                 </Card.Text>
-                <Button href = "http://localhost:3000/date" className= {classes.button}> Register </Button>
+                <Button as= {Link} to = "/date" className= {classes.button}> Register </Button>
             </Card.Body>
             </Card>
             <Card>
@@ -39,7 +39,7 @@ const WorkshopCards = () => {
                 <Card.Text>
                 Advanced painters have the oppourtunity to hone their realism portraiture painting.
                 </Card.Text>
-                <Button href = "http://localhost:3000/date" className= {classes.button}> Register </Button>
+                <Button as= {Link} to = "/date" className= {classes.button}> Register </Button>
             </Card.Body>
             </Card>
         </CardGroup>
@@ -51,7 +51,7 @@ const WorkshopCards = () => {
             <Card.Text>
                 Sculpt a sunflower bowl for the summer!
             </Card.Text>
-            <Button href = "http://localhost:3000/date" className= {classes.button}> Register </Button>
+            <Button as= {Link} to = "/date" className= {classes.button}> Register </Button>
             </Card.Body>
         </Card>
         <Card>
@@ -61,7 +61,7 @@ const WorkshopCards = () => {
             <Card.Text>
                 Introductory class for the potter wheel. Create a basic bowl.
             </Card.Text>
-            <Button href = "http://localhost:3000/date" className= {classes.button}> Register </Button>
+            <Button as= {Link} to = "/date" className= {classes.button}> Register </Button>
             </Card.Body>
         </Card>
         <Card>
@@ -71,7 +71,7 @@ const WorkshopCards = () => {
             <Card.Text>
                 Take some professional pictures of the beautiful capital!
             </Card.Text>
-            <Button href = "http://localhost:3000/date" className= {classes.button}> Register </Button>
+            <Button as= {Link} to = "/date" className= {classes.button}> Register </Button>
             </Card.Body>
         </Card>
         </CardGroup>
