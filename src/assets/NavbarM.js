@@ -13,13 +13,13 @@ const NavbarM = () => {
           <Nav.Link as= {Link} to = "/aboutus">About Us</Nav.Link>
           <NavDropdown title="Workshops" id="basic-nav-dropdown">
             <NavDropdown.Item as= {Link} to = "/workshopselect">Pottery</NavDropdown.Item>
-            <NavDropdown.Item href="http://localhost:3000/workshopselect">Painting</NavDropdown.Item>
-            <NavDropdown.Item href="http://localhost:3000/workshopselect">Photography</NavDropdown.Item>
+            <NavDropdown.Item as= {Link} to = "/workshopselect">Painting</NavDropdown.Item>
+            <NavDropdown.Item as= {Link} to = "/workshopselect">Photography</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="http://localhost:3000/workshopselect">Family Workshops</NavDropdown.Item>
-            <NavDropdown.Item href="http://localhost:3000/workshopselect">Children Workshops</NavDropdown.Item>
+            <NavDropdown.Item as= {Link} to = "/workshopselect">Family Workshops</NavDropdown.Item>
+            <NavDropdown.Item as= {Link} to = "/workshopselect">Children Workshops</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="http://localhost:3000/artists">Meet Our Artists!</Nav.Link>
+          <Nav.Link as= {Link} to = "/artists">Meet Our Artists!</Nav.Link>
           <NavDropdown title="&#x1F30E;" id="basic-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">English</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Français</NavDropdown.Item>
