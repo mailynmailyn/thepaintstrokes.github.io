@@ -35,7 +35,7 @@ import WorkshopSelection from './WorkshopSelection.js';
 // export default App;
 
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 // import Home from './components/Home';
 // import About from './components/About';
 // import Contact from './components/Contact';
@@ -54,11 +54,11 @@ class App extends Component {
           </ul>
           </nav>
           <hr />
-          <Switch>
+          <Routes>
               <Route exact path='/' component={HomePage} />
               <Route path='/contact' component={AboutUs} />
               <Route path='/about' component={WorkshopSelection} />
-          </Switch>
+          </Routes>
         </div>
       </Router>
     );
