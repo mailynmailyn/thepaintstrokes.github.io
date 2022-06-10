@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 const NavbarM = () => {
     return <Navbar className = {classes.nav} bg="light" expand="lg">
     <Container>
-      <a className = {classes.nav__logo} href="/">THE PAINT STROKES &#x1F58C;</a>
+      <a className = {classes.nav__logo} href="/thepaintstrokes.github.io">THE PAINT STROKES &#x1F58C;</a>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
